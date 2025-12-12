@@ -1,0 +1,73 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.nextUpdate
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Exceptions
+!src/main/**/*
+!src/test/**/*
+
+# Compilation
+*.class
+*.war
+*.jar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# IDE
+## Eclipse
+.classpath
+.project
+.settings/
+bin/
+tmp/
+.metadata
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.recommenders
+
+## IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+*.properties
+out/
+
+## NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Testing
+*.log
+!src/main/resources/logback.xml
+!src/test/resources/logback-test.xml
+
+# CI
+.github/
+!.github/workflows
